@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `CodeFund Gatsby Starter Blog`,
+    author: `Andrew Mason`,
+    description: `A starter blog demonstrating how to add CodeFund ads to your Gatsby site.`,
+    siteUrl: `https://github.com/andrewmcodes/codefund-gatsby-starter-blog`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `andrewmcodes`,
     },
   },
   plugins: [
@@ -47,23 +47,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `CodeFund Gatsby Starter Blog`,
+        short_name: `CodeFund GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/codefund-logo.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
