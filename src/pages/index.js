@@ -39,11 +39,11 @@ const BlogIndex = ({ data, location }) => {
               />
             </section>
             <div id="codefund"></div>
-              <ScriptTag
-                type="text/javascript"
-                src="https://app.codefund.io/properties/675/funder.js?template=top-bar"
-                async={true}
-              />
+            <ScriptTag
+              type="text/javascript"
+              src="https://app.codefund.io/properties/675/funder.js?template=top-bar"
+              async={true}
+            />
           </article>
         )
       })}

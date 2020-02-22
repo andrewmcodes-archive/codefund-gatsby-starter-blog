@@ -65,7 +65,7 @@ const Layout = ({ location, title, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
         {` `} and {` `}
-        <a href='https://www.codefund.io'>CodeFund</a>
+        <a href="https://www.codefund.io">CodeFund</a>
       </footer>
     </div>
   )
