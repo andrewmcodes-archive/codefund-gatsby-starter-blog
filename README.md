@@ -16,3 +16,7 @@ Open the `codefund-gatsby-blog-starter` directory in your code editor of choice 
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/andrewmcodes/codefund-gatsby-starter-blog)
+
+## Source
+
+This project was originally generated from [gatsbyjs/gatsby-starter-blog](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/)

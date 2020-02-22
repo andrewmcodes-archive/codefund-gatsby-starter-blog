@@ -28,6 +28,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
+    "react-script-tag": "^1.1.2",
     "react-typography": "^0.16.19",
     "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19",

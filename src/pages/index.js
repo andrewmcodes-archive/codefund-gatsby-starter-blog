@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import ScriptTag from "react-script-tag"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -37,6 +38,12 @@ const BlogIndex = ({ data, location }) => {
                 }}
               />
             </section>
+            <div id="codefund"></div>
+              <ScriptTag
+                type="text/javascript"
+                src="https://app.codefund.io/properties/675/funder.js?template=top-bar"
+                async={true}
+              />
           </article>
         )
       })}
