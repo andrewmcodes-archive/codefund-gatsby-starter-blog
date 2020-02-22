@@ -37,7 +37,7 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/andrewmcodes/codefund-gatsby-starter-blog#readme",
+  "homepage": "https://codefund-gatsby-starter-blog.netlify.com/",
   "keywords": [
     "gatsby",
     "codefund"
